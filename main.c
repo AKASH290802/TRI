@@ -12,7 +12,7 @@ int main()
     scanf("%d",&c);
     printf("enter the fourth number: ");
     scanf("%d",&d);
-    sum = a + b + c+d;
+    sum = a + b + c + d;
     printf("the sum is: ");
     return 0;
 }
