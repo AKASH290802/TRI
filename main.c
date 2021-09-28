@@ -3,7 +3,7 @@ include <stdio.h>
 
 int main()
 {
-    int a,b,c,d,sum;
+    int a,b,c,d,e,sum;
     printf("enter  the first number: ");
     scanf("%d",&a);
     printf("enter the second number: ");
@@ -12,7 +12,9 @@ int main()
     scanf("%d",&c);
     printf("enter the fourth number: ");
     scanf("%d",&d);
-    sum = a + b + c + d;
+    printf("enter the fifth number: ");
+    scanf("%d",&e);
+    sum = a + b + c + d + e;
     printf("the sum is: ");
     return 0;
 }
